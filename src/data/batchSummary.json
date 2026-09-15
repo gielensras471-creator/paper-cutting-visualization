@@ -1,0 +1,32 @@
+[
+  {
+    "year": 2006,
+    "batch": "第一批",
+    "count": 11,
+    "cumulative": 11
+  },
+  {
+    "year": 2008,
+    "batch": "第二批",
+    "count": 31,
+    "cumulative": 42
+  },
+  {
+    "year": 2011,
+    "batch": "第三批",
+    "count": 5,
+    "cumulative": 47
+  },
+  {
+    "year": 2014,
+    "batch": "第四批",
+    "count": 6,
+    "cumulative": 53
+  },
+  {
+    "year": 2021,
+    "batch": "第五批",
+    "count": 3,
+    "cumulative": 56
+  }
+]
