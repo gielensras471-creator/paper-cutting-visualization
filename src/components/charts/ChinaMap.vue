@@ -21,7 +21,7 @@ const ready = ref(false)
 
 onMounted(async () => {
   try {
-    const response = await fetch('/geojson/china-provinces.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}geojson/china-provinces.json`)
     if (!response.ok) throw new Error(`地图资源加载失败：${response.status}`)
     const geojson = await response.json()
     echarts.registerMap('china-paper-cut', geojson)
